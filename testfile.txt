@@ -1,0 +1,14 @@
+user.name=Matt Rosadini
+user.email=mwrosadini@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=false
+remote.origin.url=https://github.com/mattrdini/mreraser.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+branch.v1.0.remote=origin
+branch.v1.0.merge=refs/heads/v1.0
