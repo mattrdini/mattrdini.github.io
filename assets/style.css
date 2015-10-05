@@ -1,0 +1,46 @@
+p {
+	color: red;
+	font-family: helvetica;
+}
+
+h1 {
+	color: navy;
+	font-family: helvetica, sans-serif;
+	text-align: center;
+}
+
+img {
+	float: right;
+	height: 300px;
+	width: 500px;
+	
+}
+
+/* normal link */
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+	font-family: helvetica, sans-serif;
+}
+
+/* hover link */
+
+a:hover {
+	text-decoration: underline;
+	color: #0000EE;
+}
+
+
+/*Top Nav*/
+
+header nav ul {
+	list-style: none;
+	
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	
+}
