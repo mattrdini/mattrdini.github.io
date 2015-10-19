@@ -1,0 +1,23 @@
+/*Stylesheet breaking out universal base rules for mreraser*/
+
+body {
+    font-family: arial, helvetica, sans-serif ;
+	background-color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #039;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #03F;
+}
+
+#team-title {
+	color: green;
+	font-size: 12pt;
+	font-style: bold;
+}
