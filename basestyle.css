@@ -17,7 +17,7 @@ a:hover {
 }
 
 #team-title {
-	color: green;
+	color: #3399FF; /* Medium Blue */
 	font-size: 12pt;
 	font-style: bold;
 }
