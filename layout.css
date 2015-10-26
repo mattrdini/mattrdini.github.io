@@ -24,37 +24,59 @@ p {
 
 
 header {
-	position: absolute;
-	border: 3px solid #000000; /* Black */
+	position: fixed;
 	width: 100%;
 	height: 100px;
+    top: 0px;
+	z-index: 0;
+	border: 3px solid #000000; /* Black */
 	background-image: url("/assets/images/sample-header.jpg");
 	background-size: contain;
 	
 }
 
 article {
-	position: absolute;
-	top: 100px;
+	position: fixed;
+	height: 100%;
+	right: 0px;
+	width: 100%;
+	top: 0px;
+	z-index: -2;
 	border: 3px solid #0000FF; /* Blue */
 	background-image: url("/assets/images/sample-article.jpg");
 	background-size: contain;
 }
 
 aside {
+	visibility: hidden;
+    position: fixed;
+	height: 100%;    
+    right: 0px;
+    width: 60%;
 	border: 3px solid #00FF00; /* Green */
 	background-image: url("/assets/images/sample-aside.jpg");
 	background-size: contain;
 }
 
 section {
+	position: fixed;
+	left: 0px;
+	width: 25%;
+	height: 100%;
+	top: 0px;
+	z-index: -1;
 	border: 3px solid #FF0000; /* Red */
 	background-image: url("/assets/images/sample-section.jpg");
 	background-size: contain;
 }
 
 footer {
-	border: 3px solid #FFFFFF; /* White */
+	position: fixed;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+	z-index: -1;
+	border: 3px solid #E1E419; /* Gross yellow */
 	background-image: url("/assets/images/sample-footer.jpg");
 	background-size: contain;
 }
