@@ -1,0 +1,27 @@
+/* Stylesheet for Modules */
+
+/* Article area content */
+.article-contain {
+	position: relative;
+	height: 70%;
+	width: 68%;
+	float: right;
+	right: 20px;
+	top: 18%;
+	
+}
+
+.content-area {
+	position: relative;
+	/*background-color: #FFFFFF;*/
+	height: 100%;
+	width: initial;
+    padding-top: 1px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.content {
+	background: #FFFFFF;
+}
