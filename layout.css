@@ -22,7 +22,7 @@ ul {
 
 /* Start with setting main areas of site utilize outline to highlight */
 
-
+/* HEADER */
 header {
 	position: fixed;
 	width: 100%;
@@ -34,6 +34,34 @@ header {
 	background-size: contain;
 	
 }
+
+	/* LOGO */
+	.logo-contain {
+		position: inherit;
+		height: 100px;
+		width: 25%;
+		border: 2px solid black;	
+	}
+
+	/* TITLE */
+	.title-contain {
+		position: relative;
+		height: 65%;
+		width: 100%;
+		left: 25%;
+		border: 2px solid yellow;
+	}
+
+	/* NAV */
+	.nav-contain {
+		position: relative;
+		height: 30%;
+		width: 100%;
+		left: 25%;
+		border: 2px solid white;
+	}
+
+/* ARTICLE */
 
 article {
 	position: fixed;
@@ -47,6 +75,8 @@ article {
 	background-size: contain;
 }
 
+
+
 aside {
 	visibility: hidden;
     position: fixed;
@@ -57,6 +87,8 @@ aside {
 	background-image: url("/assets/images/sample-aside.jpg");
 	background-size: contain;
 }
+
+/* SIDBAR 'Section' */
 
 section {
 	position: fixed;
@@ -69,6 +101,16 @@ section {
 	background-image: url("/assets/images/sample-section.jpg");
 	background-size: contain;
 }
+
+.leag-1 {
+	position: relative;
+	top: 15%;
+	border: 2px solid blue;
+	height: 200px;
+	width: initial;
+}
+
+/* FOOT */
 
 footer {
 	position: fixed;
