@@ -28,19 +28,15 @@ header {
 	width: 100%;
 	height: 100px;
     top: 0px;
-	z-index: 0;
-	border: 3px solid #000000; /* Black */
-	background-image: url("/assets/images/sample-header.jpg");
+	z-index: -1;
+	background-color: #000000;
+	/*border: 3px solid #000000; /* Black */
+	/*background-image: url("/assets/images/sample-header.jpg");*/
 	background-size: contain;
 	
 }
 
-	/* LOGO */
-	.logo-contain {
-		position: inherit;
-		height: 100px;
-		width: 25%;
-		border: 2px solid black;	
+	
 	}
 
 	/* TITLE */
@@ -49,7 +45,7 @@ header {
 		height: 65%;
 		width: 100%;
 		left: 25%;
-		border: 2px solid yellow;
+		/*border: 2px solid yellow;*/
 	}
 
 	/* NAV */
@@ -58,7 +54,7 @@ header {
 		height: 30%;
 		width: 100%;
 		left: 25%;
-		border: 2px solid white;
+		/*border: 2px solid white;*/
 	}
 
 /* ARTICLE */
@@ -71,7 +67,7 @@ article {
 	top: 0px;
 	z-index: -2;
 	border: 3px solid #0000FF; /* Blue */
-	background-image: url("/assets/images/sample-article.jpg");
+	/*background-image: url("/assets/images/sample-article.jpg");*/
 	background-size: contain;
 }
 
@@ -84,7 +80,7 @@ aside {
     right: 0px;
     width: 60%;
 	border: 3px solid #00FF00; /* Green */
-	background-image: url("/assets/images/sample-aside.jpg");
+	/*background-image: url("/assets/images/sample-aside.jpg");*/
 	background-size: contain;
 }
 
@@ -94,18 +90,37 @@ section {
 	position: fixed;
 	left: 0px;
 	width: 25%;
+	max-width: 200px;
 	height: 100%;
 	top: 0px;
 	z-index: -1;
-	border: 3px solid #FF0000; /* Red */
-	background-image: url("/assets/images/sample-section.jpg");
-	background-size: contain;
+	background: url("/assets/images/bird_lane.png"), #FCBF7F;
+	background-blend-mode: screen;
+	/*border: 3px solid #FF0000; /* Red */
+	/*background-image: url("/assets/images/sample-section.jpg");*/
+	background-size: cover;
 }
+
+	/* LOGO */
+	.logo-contain {
+		position: inherit;
+		height: 100px;
+		width: 25%;
+		/*border: 2px solid black;*/	
+	}
+
+	/* IMPORTANT MOVE TO MODULES WHEN TURNED BACK ON */
+	#logo-trans {
+		max-width: 100%;
+		max-height: 183%;
+		margin-left: 1%;
+	}
+
 
 .leag-1 {
 	position: relative;
 	top: 15%;
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	height: 200px;
 	width: initial;
 }
@@ -117,10 +132,11 @@ footer {
 	bottom: 0px;
 	height: 50px;
 	width: 100%;
-	z-index: -1;
-	border: 3px solid #E1E419; /* Gross yellow */
-	background-image: url("/assets/images/sample-footer.jpg");
+	z-index: 0;
+	/*border: 3px solid #E1E419; /* Gross yellow */
+	/*background-image: url("/assets/images/sample-footer.jpg");*/
 	background-size: contain;
+	background-color: #5F0707;
 }
 
 

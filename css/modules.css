@@ -1,5 +1,6 @@
 /* Stylesheet for Modules */
 
+
 /* Article area content */
 /.article-contain {
 	position: relative;
@@ -28,6 +29,10 @@
 
 /* The Header Modules */
 
+.logo {
+	width: inherit;
+	height: auto;
+}
 
 
 
