@@ -1,7 +1,7 @@
 /* Stylesheet for Modules */
 
 /* Article area content */
-.article-contain {
+/.article-contain {
 	position: relative;
 	height: 70%;
 	width: 68%;
@@ -26,7 +26,7 @@
 	background: #FFFFFF;
 }
 
-/*/* The Header Modules */
+/* The Header Modules */
 
 
 
