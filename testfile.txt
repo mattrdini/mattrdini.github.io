@@ -10,5 +10,8 @@ remote.origin.url=https://github.com/mattrdini/mreraser.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.master.remote=origin
 branch.master.merge=refs/heads/master
+<<<<<<< HEAD
 branch.v1.0.remote=origin
 branch.v1.0.merge=refs/heads/v1.0
+=======
+>>>>>>> master
